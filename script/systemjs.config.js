@@ -1,0 +1,13 @@
+SystemJS.config({
+    map:{
+        'react':'/script/lib/react/react',
+        'react-dom':'/script/lib/react/react-dom',
+        'Welcome':'/script/build/Welcome',
+        'App':'/script/build/App',
+        'avatar':'/script/build/Avatar',
+        'main':'/script/main',
+    },
+    packages:{
+        '/script':{defaultExtension:'js'}
+    }
+})
